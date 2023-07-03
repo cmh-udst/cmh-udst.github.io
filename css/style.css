@@ -108,6 +108,8 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
+    z-index: 0;
+    position: relative;
 }
 
 .section__title--intro strong {
@@ -253,10 +255,14 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    z-index: -1;
+    position: relative;
 }
 
 .section__subtitle--intro {
     display: inline-block;
+    z-index: 0;
+    position: absolute;
 }
 
 @media (min-width: 600px) {
